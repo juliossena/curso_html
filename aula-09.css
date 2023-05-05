@@ -1,5 +1,5 @@
 main {
-    background-color: blue;
+    background-color: blue !important;
     width: 200px;
     height: 200px;
 }
