@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.container {
+    padding: 8px;
+    margin: auto;
+    width: 400px;
+}
+
+.item {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 8px;
+}
