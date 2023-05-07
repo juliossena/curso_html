@@ -1,0 +1,17 @@
+body {
+    margin: 0px;
+}
+
+input {
+    width: 100%;
+}
+
+main {
+    background-color: pink;
+    margin: 0px auto;
+
+    height: 300px;
+    width: 90%;
+
+    max-width: 300px;
+}
