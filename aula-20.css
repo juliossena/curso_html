@@ -1,0 +1,43 @@
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.flex-space-around {
+    justify-content: space-around;
+}
+
+.flex-direction-row {
+    flex-direction: row;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+    height: 300px;
+}
+
+
+.container {
+    width: 400px;
+    display: flex;
+    margin: 8px auto;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.item {
+    background-color: red;
+    text-align: center;
+    margin: 8px;
+}
