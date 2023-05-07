@@ -1,0 +1,26 @@
+.row-nowrap {
+    flex-flow: row nowrap;
+}
+
+.column-nowrap {
+    flex-flow: column nowrap;
+}
+
+.row-wrap {
+    flex-flow: row wrap;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    margin: auto;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.item {
+    flex: 1;
+    margin: 8px;
+    background-color: red;
+    text-align: center;
+}
