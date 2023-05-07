@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+}
+
+main {
+    
+    background-color: pink;
+}
+
+.abc {
+    margin: 0px auto;
+    background-color: brown;
+    height: 50px;
+    width: 50%;
+
+    position: relative;
+}
+
+.def {
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 50%;
+}
+
+.ghi {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 10%;
+
+    position: absolute;
+    left: 80px;
+    top: 80px;
+
+    z-index: 2;
+}
+
+.jkl {
+    background-color: darkcyan;
+
+    height: 50px;
+    width: 10%;
+
+    position: absolute;
+    left: 70px;
+    top: 70px;
+
+    z-index: 1;
+}
