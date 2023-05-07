@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.container {
+    display: flex;
+    padding: 8px;
+    margin: auto;
+    width: 400px;
+}
+
+.item {
+    flex: 1;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 8px;
+}
