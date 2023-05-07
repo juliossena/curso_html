@@ -1,0 +1,29 @@
+body{ 
+    margin: 0;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    margin: auto;
+}
+
+.item {
+    flex: 1;
+    font-size: 22px;
+    background-color: red;
+    text-align: center;
+    margin: 8px;
+}
