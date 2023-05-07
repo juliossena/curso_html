@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+}
+
+p {
+    background-color: blue;
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+
+    text-align: justify;
+    font-weight: 100;
+    line-height: 20px;
+}
