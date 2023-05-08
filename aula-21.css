@@ -1,0 +1,41 @@
+.stretch {
+    align-items: stretch;
+}
+
+.center {
+    align-items: center;
+}
+
+.flex-start {
+    align-items: flex-start;
+}
+
+.flex-end {
+    align-items: flex-end;
+}
+
+.baseline {
+    align-items: baseline;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    margin: 8px auto;
+    width: 400px;
+    border: 1px solid black;
+}
+
+.item {
+    flex: 1;
+    margin: 8px;
+    background-color: red;
+}
+
+.item:first-child {
+    padding-top: 20px;
+}
+
