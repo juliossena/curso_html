@@ -16,9 +16,10 @@ body {
     font-family: sans-serif;
     font-weight: 900;
     color: #00AABD;
-    width: 600px;
+    width: 80%;
     font-size: 56px;
     text-align: center;
+    max-width: 600px;
 }
 
 .sub_titulo {
@@ -26,7 +27,8 @@ body {
     font-family: sans-serif;
     font-weight: 100;
     color: white;
-    width: 600px;
+    width: 80%;
+    max-width: 600px;
     font-size: 14px;
 }
 
@@ -36,8 +38,10 @@ body {
 
 .imagem_youtube {
     margin: auto;
-    width: 400px;
+    max-width: 400px;
+    width: 80%;
     border-radius: 20px;
+
 }
 
 .centralizar {
@@ -56,7 +60,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 800px;
+    max-width: 800px;
+    width: 80%;
     margin: auto;
 }
 
